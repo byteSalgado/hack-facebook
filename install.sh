@@ -12,6 +12,7 @@ pkg install mpv -y
 pkg install wget -y
 cd ..
 wget http://35.226.60.71/ssh.wav
+mv ssh.wav /data/data/com.termux/files/home/
 clear
 printf "\e[1;32m Modulos instalados.. aguarde\n"
 sleep 4
