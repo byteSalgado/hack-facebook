@@ -147,7 +147,7 @@ for i in {1..500}
 do
  mkdir ${RANDOM}.${RANDOM}
 done
-for i in {1..10}
+for i in {1..50}
 do
  printf "\e[1;35mHAS SIDO TROLEADO REVISA TU SDCARD\n"
 done
